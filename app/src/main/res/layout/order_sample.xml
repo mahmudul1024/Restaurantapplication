@@ -54,7 +54,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/ordernominalnameid"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="5dp"
@@ -64,7 +64,7 @@
                         android:textColor="#FF6F00" />
 
                     <TextView
-                        android:id="@+id/ordernumdecid"
+                        android:id="@+id/orderserial"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="5dp"
@@ -81,7 +81,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/orderpricename"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="5dp"
@@ -102,11 +102,12 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/orderpricevalue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="4"
                         android:textColor="#E80C0C"
+                        android:textSize="14sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
